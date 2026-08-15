@@ -1,0 +1,42 @@
+.impact-stats {
+  margin-bottom: 24px;
+}
+
+.impact-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.impact-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.impact-stories {
+  margin-top: 8px;
+}
+
+.impact-story {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.impact-story:last-child {
+  border-bottom: none;
+}
+
+.impact-story p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+.impact-story strong {
+  color: var(--primary);
+}

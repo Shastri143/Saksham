@@ -1,0 +1,162 @@
+.risk-alerts-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.risk-alerts-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.risk-alerts-filter {
+  padding: 7px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--surface);
+  transition: all var(--transition);
+}
+.risk-alerts-filter:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+.risk-alerts-filter.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.risk-alerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.risk-alert-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.risk-alert-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.risk-alert-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.risk-alert-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.risk-alert-header strong {
+  font-size: 1rem;
+}
+.risk-alert-header a:hover strong {
+  color: var(--primary);
+}
+
+.risk-alert-village {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.risk-alert-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.risk-alert-reason {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--surface-2);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.risk-alert-right {
+  min-width: 240px;
+}
+
+.risk-alert-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.risk-alert-copilot {
+  background: var(--primary-50);
+  border: 1px solid var(--primary-light);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+}
+
+.risk-alert-copilot-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.risk-alert-copilot ol {
+  padding-left: 18px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.risk-alert-copilot-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.risk-alerts-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 48px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .risk-alerts-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .risk-alert-card {
+    flex-direction: column;
+  }
+  .risk-alert-actions {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}

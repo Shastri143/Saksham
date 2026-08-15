@@ -1,0 +1,76 @@
+.volunteer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.volunteer-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.volunteer-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: var(--secondary-light);
+  color: var(--secondary);
+  border-radius: 50%;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: var(--font-body);
+}
+
+.volunteer-info {
+  flex: 1;
+}
+
+.volunteer-name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.volunteer-role {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.volunteer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.volunteer-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.volunteer-subjects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.volunteer-subject-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: var(--surface-2);
+  color: var(--text-muted);
+}
+
+.volunteer-assign-btn {
+  align-self: flex-start;
+}

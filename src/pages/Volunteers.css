@@ -1,0 +1,111 @@
+.volunteers-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.volunteers-filters {
+  display: flex;
+  gap: 8px;
+}
+
+.volunteers-filter {
+  padding: 7px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--surface);
+  transition: all var(--transition);
+}
+.volunteers-filter:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+.volunteers-filter.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.volunteers-card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.volunteers-assigned-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 12px 18px;
+  background: var(--success-light);
+  border-radius: 0 0 var(--radius) var(--radius);
+  margin-top: -1px;
+  border: 1px solid var(--border);
+  border-top: none;
+}
+
+.volunteers-assigned-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #15803D;
+}
+
+.volunteers-assigned-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #15803D;
+  background: rgba(22, 163, 74, 0.15);
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+}
+
+.volunteers-modal-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.volunteers-student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.volunteers-student-pick {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  transition: all var(--transition);
+  text-align: left;
+}
+.volunteers-student-pick:hover {
+  border-color: var(--primary);
+  background: var(--primary-50);
+}
+
+.volunteers-student-info {
+  display: flex;
+  flex-direction: column;
+}
+.volunteers-student-info strong { font-size: 0.9rem; }
+.volunteers-student-info span { font-size: 0.78rem; color: var(--text-muted); }
+
+@media (max-width: 768px) {
+  .volunteers-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

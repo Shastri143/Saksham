@@ -1,0 +1,85 @@
+.village-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.village-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.village-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.village-district {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.village-stats {
+  display: flex;
+  gap: 20px;
+}
+
+.village-stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+}
+
+.village-stat-value {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--text);
+  font-family: 'DM Serif Display', Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.village-stat-label {
+  font-size: 0.8rem;
+}
+
+.village-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.village-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.village-bar-track {
+  height: 6px;
+  background: var(--surface-2);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.village-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.6s ease;
+}
+
+.village-pending {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #9a6a1a;
+  background: var(--warning-light);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  align-self: flex-start;
+}

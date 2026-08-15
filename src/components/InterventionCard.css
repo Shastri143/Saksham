@@ -1,0 +1,66 @@
+.intervention-card {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.intervention-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intervention-student {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text);
+}
+.intervention-student:hover {
+  color: var(--primary);
+}
+
+.intervention-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.intervention-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.intervention-problem {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.intervention-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.intervention-status-select {
+  padding: 5px 10px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface);
+  cursor: pointer;
+}
+.intervention-status-select:focus {
+  outline: none;
+  border-color: var(--primary);
+}

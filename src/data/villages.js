@@ -1,0 +1,12 @@
+export const villages = [
+  { id: 'v1', name: 'Rampur', district: 'Sitamarhi', atRiskStudents: 21, totalStudents: 180, avgAttendance: 64, riskLevel: 'critical', availableVolunteers: 2, resourceRequirements: ['Tablets', 'Books', 'Scholarships'], pendingInterventions: 9, x: 28, y: 38 },
+  { id: 'v2', name: 'Bela', district: 'Muzaffarpur', atRiskStudents: 4, totalStudents: 95, avgAttendance: 88, riskLevel: 'low', availableVolunteers: 3, resourceRequirements: ['Books'], pendingInterventions: 1, x: 62, y: 22 },
+  { id: 'v3', name: 'Karahi', district: 'Darbhanga', atRiskStudents: 12, totalStudents: 140, avgAttendance: 72, riskLevel: 'high', availableVolunteers: 1, resourceRequirements: ['Tablets', 'Scholarships'], pendingInterventions: 5, x: 48, y: 58 },
+  { id: 'v4', name: 'Sonepat', district: 'Samastipur', atRiskStudents: 7, totalStudents: 110, avgAttendance: 79, riskLevel: 'moderate', availableVolunteers: 2, resourceRequirements: ['Books', 'Volunteers'], pendingInterventions: 3, x: 18, y: 64 },
+  { id: 'v5', name: 'Mahua', district: 'Vaishali', atRiskStudents: 15, totalStudents: 160, avgAttendance: 68, riskLevel: 'high', availableVolunteers: 1, resourceRequirements: ['Tablets', 'Books', 'Volunteers'], pendingInterventions: 6, x: 72, y: 48 },
+  { id: 'v6', name: 'Patori', district: 'Samastipur', atRiskStudents: 3, totalStudents: 70, avgAttendance: 91, riskLevel: 'low', availableVolunteers: 4, resourceRequirements: [], pendingInterventions: 0, x: 82, y: 70 },
+  { id: 'v7', name: 'Dalsinghsarai', district: 'Samastipur', atRiskStudents: 9, totalStudents: 120, avgAttendance: 75, riskLevel: 'moderate', availableVolunteers: 2, resourceRequirements: ['Books'], pendingInterventions: 2, x: 38, y: 78 },
+  { id: 'v8', name: 'Rosera', district: 'Darbhanga', atRiskStudents: 18, totalStudents: 155, avgAttendance: 61, riskLevel: 'critical', availableVolunteers: 1, resourceRequirements: ['Tablets', 'Scholarships', 'Volunteers'], pendingInterventions: 8, x: 58, y: 82 },
+  { id: 'v9', name: 'Moraul', district: 'Muzaffarpur', atRiskStudents: 6, totalStudents: 88, avgAttendance: 82, riskLevel: 'moderate', availableVolunteers: 3, resourceRequirements: ['Books'], pendingInterventions: 2, x: 12, y: 30 },
+  { id: 'v10', name: ' Aurangabad', district: 'Aurangabad', atRiskStudents: 11, totalStudents: 130, avgAttendance: 70, riskLevel: 'high', availableVolunteers: 2, resourceRequirements: ['Tablets', 'Books'], pendingInterventions: 4, x: 88, y: 36 },
+];

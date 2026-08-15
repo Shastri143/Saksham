@@ -1,0 +1,49 @@
+.risk-chart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.risk-chart-svg {
+  transform: rotate(0deg);
+}
+
+.risk-chart-progress {
+  transition: stroke-dashoffset 1s ease;
+}
+
+.risk-chart-label {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.risk-chart-score {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: -0.03em;
+}
+
+.risk-chart-max {
+  font-size: 0.68rem;
+  color: var(--text-light);
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+
+/* Adjust label size relative to chart */
+.risk-chart[style*="width: 70px"] .risk-chart-score {
+  font-size: 1.15rem;
+}
+.risk-chart[style*="width: 70px"] .risk-chart-max {
+  font-size: 0.58rem;
+}
+.risk-chart[style*="width: 80px"] .risk-chart-score {
+  font-size: 1.25rem;
+}
