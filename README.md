@@ -2,12 +2,6 @@
 
 A frontend-only React web application for NGOs working with underprivileged and rural students. Saksham helps identify students at risk of dropping out, understand why they are at risk, assign interventions, manage volunteers/resources, and measure the impact of those interventions.
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
 
 ## Tech Stack
 
@@ -42,33 +36,3 @@ npm run dev
 4. **Smart Resource Allocation** — Allocate tablets, books, scholarships to students with live count updates
 5. **Intervention Impact Timeline** — Visual timeline showing attendance recovery before and after intervention
 
-## Project Structure
-
-```
-src/
-  components/     Reusable UI components (Sidebar, Navbar, cards, charts, modals)
-  pages/          Route pages (Landing, Login, Dashboard, Students, etc.)
-  data/           Mock data (students, volunteers, resources, villages)
-  App.jsx         Router configuration
-  main.jsx        Entry point
-  index.css       Global styles and CSS variables
-```
-
-## Mock Data
-
-- 20 students with full profiles, risk factors, timelines, and intervention history
-- 11 volunteers with subjects, distance, availability, and match scores
-- 10 villages with risk levels, attendance, and resource requirements
-- 6 resource types with availability counts
-- 18 intervention cases with statuses
-- 7 resource allocation requests
-
-## Replacing Mock Data with Real APIs
-
-To connect a real backend, replace the imports in `src/data/` with API calls using fetch or axios. For example, in `src/pages/Students.jsx`, replace:
-
-```js
-import { students } from '../data/students.js';
-```
-
-with a fetch call in a `useEffect` hook that populates state from your API endpoint.
