@@ -9,7 +9,7 @@ A frontend-only React web application for NGOs working with underprivileged and 
 - React Router for navigation
 - Recharts for interactive charts
 - Lucide React for icons
-- Normal CSS (no Tailwind, no Bootstrap)
+- Normal CSS 
 
 ## Features
 
